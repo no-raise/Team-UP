@@ -1,0 +1,24 @@
+{
+  "fitbit": {
+    "appUUID": "4c5346b0-ba3c-42df-8ab3-1241f99238ab",
+    "appType": "app",
+    "appDisplayName": "Scrolling",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#03a9f4",
+    "requestedPermissions": [
+      "access_activity"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson"
+    ],
+    "i18n": {
+      "en": {
+        "name": "Scrolling"
+      }
+    }
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~1.0.0"
+  }
+}

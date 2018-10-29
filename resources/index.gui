@@ -1,0 +1,47 @@
+<!-- <svg>
+  <use href="#scrollview">
+    <use href="#scrollview-item">
+      
+    </use>
+    <use href="#scrollview-item">
+      <text> Whats </text>
+    </use>
+    <use href="#scrollview-item">
+      
+    </use>
+  </use>
+</svg> -->
+
+<svg viewport-fill="black">
+  <text id="title" x="50%" y="10%+15" text-anchor="middle"  font-family="System-Regular" fill="green">Message Demo</text>
+  <textarea id="response" width="100%-10" text-length="500" x="5%" y="35%+15" font-family="System-Regular" fill="white" ></textarea>
+  <svg>
+  <use id="mybutton" href="#push-button" y="50" height="60"
+    fill="fb-red" font-family="System-Regular" font-size="40">
+    <set href="#text" attributeName="text-buffer" to="Sync" />
+    <set href="#text" attributeName="fill" to="fb-peach" />
+    <set href="#text" attributeName="y" to="12" />
+  </use>
+</svg>
+
+
+<!-- <svg viewport-fill="black"> -->
+  <text id="steps" x="175" y="66%" class="large-value" fill = "fb-orange">0</text>
+  <text id="steps2" x="175" y="80%" class="large-value" fill = "fb-orange">0</text>
+  
+<!--   <use href="#mixed-text-left-top" height="100%" fill="fb-orange">
+    <set href="#header/text" attributeName="text-buffer" to="National Leaderboard"/>
+  </use> -->
+<!--    <use href="#mixed-text-left-mid" height = "100%" fill = "fb-blue">
+    <set href="#copy/text" attributeName="text-buffer"
+         to="2. Cecelia Mauro: 200"/>
+  </use> -->
+  <use href="#mixed-text-left-mid" height = "145%" fill = "fb-red">
+    <set href="#copy/text" attributeName="text-buffer"
+         to="Red Team:"/>
+  </use> 
+  <use href="#mixed-text-left-mid" height = "120%" fill = "fb-blue">
+    <set href="#copy/text" attributeName="text-buffer"
+         to="Blue Team:"/>
+  </use>
+</svg>
